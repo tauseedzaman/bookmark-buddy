@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Bookmark Buddy</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📥 Bookmarks Buddy</h1>
+      <div class="stats" id="stats">Loading...</div>
+    </header>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search by name, domain, or tag...">
+      <select id="filterDomain">
+        <option value="">All Domains</option>
+      </select>
+      <select id="filterType">
+        <option value="">All File Types</option>
+      </select>
+    </div>
+
+    <div class="actions">
+      <button id="exportBtn">Export JSON</button>
+      <button id="importBtn">Import JSON</button>
+      <input type="file" id="importFile" accept=".json" style="display: none;">
+      <button id="clearAllBtn" class="danger">Clear All</button>
+    </div>
+
+    <div class="bookmarks-list" id="bookmarksList">
+      <div class="empty-state" id="emptyState">
+        <p>No bookmarks yet. Right-click on any download link and select "Save to Bookmarks Buddy"</p>
+      </div>
+    </div>
+
+    <div class="quick-actions">
+      <h3>Quick Access</h3>
+      <div class="quick-links">
+        <button class="quick-link" id="addCustomSource">+ Add Source</button>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
