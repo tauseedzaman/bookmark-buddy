@@ -3,6 +3,7 @@
 # 📥 Bookmarks Buddy
 
 > A lightweight Chrome extension for saving, organizing, and quickly finding important download links — built for developers, researchers, and power users.
+<img width="632" height="379" alt="image" src="https://github.com/user-attachments/assets/ed5c8078-c861-4550-82b4-313bbf48e03a" />
 
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-yellow.svg)](https://chrome.google.com/webstore)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
